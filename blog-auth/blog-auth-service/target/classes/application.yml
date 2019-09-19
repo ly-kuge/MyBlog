@@ -1,0 +1,22 @@
+spring:
+  application:
+    name: blog-auth-service
+blog:
+  jwt:
+    secret: blog@Login(Auth}*^31)&yun6%f3q2 # 登录校验的密钥
+    pubKeyPath: G:\temp\rsa\rsa.pub # 公钥地址
+    priKeyPath: G:\temp\rsa\rsa.pri # 私钥地址
+    expire: 30 # 过期时间,单位分钟
+    cookieName: BLOG_TOKEN
+    cookieMaxAge: 1800
+#eureka 相关配置
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka01:10086/eureka,http://eureka02:10087/eureka
+  instance:
+    prefer-ip-address: true
+    ip-address: 127.0.0.1
+server:
+  port: 8087
+

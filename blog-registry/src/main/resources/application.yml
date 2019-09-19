@@ -1,0 +1,15 @@
+server:
+  port: ${PORT:10086}
+eureka:
+  client:
+    service-url:
+      defaultZone: ${EUREKA_SERVER:http://eureka02:10087/eureka}
+    register-with-eureka: true
+    fetch-registry: true
+    prefer-ip-address: true
+    ip-address: 127.0.0.1
+  instance:
+    hostname: ${EUREKA-NAME:eureka01}
+spring:
+  application:
+    name: blog-registry

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/blog-api-gateway" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/blog-article" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/blog-article/blog-article-interface" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/blog-article/blog-article-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/blog-auth" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/blog-auth/blog-auth-common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/blog-auth/blog-auth-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/blog-common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/blog-model" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/blog-registry" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/blog-sms" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/blog-user" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/blog-user/blog-user-interface" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/blog-user/blog-user-service" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

@@ -1,0 +1,23 @@
+spring:
+  application:
+    name: blog-user-service
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/blog?characterEncoding=utf-8&autoReconnect=true&useSSL=false&serverTimezone=GMT
+    username: root
+    password: 123456
+
+#eureka 相关配置
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka01:10086/eureka,http://eureka02:10087/eureka
+  instance:
+    prefer-ip-address: true
+    ip-address: 127.0.0.1
+mybatis:
+  type-aliases-package: com.blog.model
+server:
+  port: 12000
+
+

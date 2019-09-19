@@ -1,0 +1,37 @@
+{
+  "groups": [
+    {
+      "name": "blog.filter",
+      "type": "com.blog.properties.FilterProperties",
+      "sourceType": "com.blog.properties.FilterProperties"
+    },
+    {
+      "name": "blog.jwt",
+      "type": "com.blog.properties.JwtProperties",
+      "sourceType": "com.blog.properties.JwtProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "blog.filter.allow-paths",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "com.blog.properties.FilterProperties"
+    },
+    {
+      "name": "blog.jwt.cookie-name",
+      "type": "java.lang.String",
+      "sourceType": "com.blog.properties.JwtProperties"
+    },
+    {
+      "name": "blog.jwt.pub-key-path",
+      "type": "java.lang.String",
+      "sourceType": "com.blog.properties.JwtProperties"
+    },
+    {
+      "name": "blog.jwt.public-key",
+      "type": "java.security.PublicKey",
+      "sourceType": "com.blog.properties.JwtProperties"
+    }
+  ],
+  "hints": []
+}

@@ -1,0 +1,54 @@
+{
+  "groups": [
+    {
+      "name": "blog.jwt",
+      "type": "com.blog.properties.JwtProperties",
+      "sourceType": "com.blog.properties.JwtProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "blog.jwt.cookie-max-age",
+      "type": "java.lang.Integer",
+      "sourceType": "com.blog.properties.JwtProperties",
+      "defaultValue": 0
+    },
+    {
+      "name": "blog.jwt.cookie-name",
+      "type": "java.lang.String",
+      "sourceType": "com.blog.properties.JwtProperties"
+    },
+    {
+      "name": "blog.jwt.expire",
+      "type": "java.lang.Integer",
+      "sourceType": "com.blog.properties.JwtProperties",
+      "defaultValue": 0
+    },
+    {
+      "name": "blog.jwt.pri-key-path",
+      "type": "java.lang.String",
+      "sourceType": "com.blog.properties.JwtProperties"
+    },
+    {
+      "name": "blog.jwt.private-key",
+      "type": "java.security.PrivateKey",
+      "sourceType": "com.blog.properties.JwtProperties"
+    },
+    {
+      "name": "blog.jwt.pub-key-path",
+      "type": "java.lang.String",
+      "sourceType": "com.blog.properties.JwtProperties"
+    },
+    {
+      "name": "blog.jwt.public-key",
+      "type": "java.security.PublicKey",
+      "sourceType": "com.blog.properties.JwtProperties"
+    },
+    {
+      "name": "blog.jwt.secret",
+      "type": "java.lang.String",
+      "sourceType": "com.blog.properties.JwtProperties"
+    }
+  ],
+  "hints": []
+}

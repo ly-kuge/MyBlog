@@ -1,0 +1,26 @@
+server:
+  port: 4000
+spring:
+  application:
+    name: blog-sms
+
+#eureka 相关配置
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka01:10086/eureka,http://eureka02:10087/eureka
+  instance:
+    prefer-ip-address: true
+    ip-address: 127.0.0.1
+rabbitmq:
+  host: 127.0.0.1
+  port: 5672
+  username: guest
+  password: guest
+  virtualHost: /
+
+#短信相关配置
+sms:
+  host: https://dxyzm.market.alicloudapi.com
+  path: /chuangxin/dxjk
+  appcode: c87ca853dae347d585c38d0d3b9e983e
